@@ -1,0 +1,72 @@
+body {
+    background-color: #fff;
+    font-family: 'Epilogue', sans-serif;
+}
+
+/* title */
+
+#title {
+    text-align: left;
+}
+
+.top-container {
+    margin-top: 5rem;
+}
+/* NavBar */
+
+
+/* texts */
+
+.title-text {
+    margin-left: 5rem;
+    font-size: 18px;
+}
+
+h1 {
+    font-weight: 700;
+}
+p {
+    font-weight: 500;
+}
+/* images */
+
+.big-image {
+    width: 75%;
+    height: 75%;
+}
+
+.foot-images {
+    margin-top: 8rem;
+}
+
+/* buttons */
+
+.title-btn {
+    margin-top: 3rem;
+}
+.title-btn:hover{
+    background-color: white;
+    color: black;
+}
+/* font awesome */
+
+.fa-calendar-days {
+    color: blue;
+}
+.fa-bell {
+    color: yellow;
+}
+.fa-calendar-check {
+    color: #47B5FF;
+}
+.fa-badge {
+    color: purple;
+}
+
+@media (max-width: 800px) {
+    .row {
+        display: flex;
+        flex-direction: column-reverse;
+        row-gap: 3rem;
+    }
+}
